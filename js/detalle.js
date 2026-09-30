@@ -1,3 +1,5 @@
+// Muestra el detalle de una noticia y permite guardarla en favoritos
+
 const estadoDetalle = document.querySelector("#estado-detalle");
 const contenedorDetalle = document.querySelector("#detalle-noticia");
 const parametros = new URLSearchParams(window.location.search);
