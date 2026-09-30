@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulario de contacto de TechNews">
+  <title>TechNews | Contacto</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Encabezado y menú principal -->
+
+  <header class="header">
+    <div class="contenedor header-contenido">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="TechNews">
+      </a>
+      <nav class="navegacion" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="favoritos.html">Favoritos</a>
+        <a class="activo" href="contacto.html">Contacto</a>
+        <a class="enlace-admin" href="admin.html">Administrar</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- Contenido principal de la página -->
+
+  <main>
+    <section class="cabecera-pagina">
+      <div class="contenedor">
+        <h1>Contáctanos</h1>
+        <p>Envíanos tus preguntas, comentarios o sugerencias.</p>
+      </div>
+    </section>
+
+    <section class="seccion contenedor contacto-grid">
+      <div class="contacto-informacion">
+        <h2>Información de contacto</h2>
+        <p><strong>Correo:</strong> rodrigo@technews.com</p>
+        <p><strong>Teléfono:</strong> +57 304 4323547</p>
+        <p><strong>Ubicación:</strong> Bogotá, Colombia</p>
+        <div class="mapa-simulado">Ubicación de TechNews</div>
+      </div>
+
+      <form id="formulario-contacto" class="formulario" novalidate>
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name">
+          <small id="error-nombre" class="error"></small>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input id="correo" name="correo" type="email" autocomplete="email">
+          <small id="error-correo" class="error"></small>
+        </div>
+
+        <div class="campo">
+          <label for="asunto">Asunto</label>
+          <input id="asunto" name="asunto" type="text">
+          <small id="error-asunto" class="error"></small>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+          <small id="error-mensaje" class="error"></small>
+        </div>
+
+        <button class="boton" type="submit">Enviar mensaje</button>
+        <p id="confirmacion" class="confirmacion" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+<!-- Pie de página -->
+   
+  <footer class="footer">
+    <div class="contenedor">
+      <p>&copy; 2026 TechNews</p>
+      <p>rodrigo@technews.com</p>
+    </div>
+  </footer>
+
+  <script src="js/contacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Noticias favoritas de TechNews">
+  <title>TechNews | Favoritos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Encabezado y menú principal -->
+
+  <header class="header">
+    <div class="contenedor header-contenido">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="TechNews">
+      </a>
+      <nav class="navegacion" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a class="activo" href="favoritos.html">Favoritos</a>
+        <a href="contacto.html">Contacto</a>
+        <a class="enlace-admin" href="admin.html">Administrar</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- Contenido principal de la página -->
+
+  <main>
+    <section class="cabecera-pagina">
+      <div class="contenedor">
+        <h1>Mis favoritos</h1>
+        <p>Noticias guardadas localmente en este navegador.</p>
+      </div>
+    </section>
+
+    <section class="seccion contenedor">
+      <p id="estado-favoritos" class="estado"></p>
+      <div id="lista-favoritos" class="tarjetas"></div>
+    </section>
+  </main>
+
+<!-- Pie de página -->
+   
+  <footer class="footer">
+    <div class="contenedor">
+      <p>&copy; 2026 TechNews</p>
+      <p>rodrigo@technews.com</p>
+    </div>
+  </footer>
+
+  <script src="js/favoritos.js"></script>
+</body>
+</html>

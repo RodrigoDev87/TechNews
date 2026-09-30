@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "sigla": "IA",
+    "titulo": "Nueva IA revoluciona la programación",
+    "categoria": "Inteligencia artificial",
+    "descripcion": "Los asistentes inteligentes transforman el desarrollo de software y ayudan a detectar errores.",
+    "fecha": "15 de septiembre de 2026",
+    "autor": "Equipo TechNews",
+    "contenido": "Las nuevas herramientas de inteligencia artificial ayudan a generar código, detectar errores y optimizar tareas repetitivas. Su integración permite que los equipos dediquen más tiempo al análisis, las pruebas y la creación de soluciones."
+  },
+  {
+    "id": 2,
+    "sigla": "QC",
+    "titulo": "Avances en computación cuántica",
+    "categoria": "Innovación",
+    "descripcion": "Nuevos procesadores prometen resolver cálculos complejos con mayor rapidez.",
+    "fecha": "14 de septiembre de 2026",
+    "autor": "Equipo TechNews",
+    "contenido": "La computación cuántica continúa avanzando mediante nuevos procesadores y métodos de control. Estas tecnologías buscan resolver problemas que requieren enormes cantidades de cálculo."
+  },
+  {
+    "id": 3,
+    "sigla": "CL",
+    "titulo": "Nuevas herramientas en la nube",
+    "categoria": "Cloud",
+    "descripcion": "Soluciones modernas facilitan el despliegue y administración de aplicaciones.",
+    "fecha": "13 de septiembre de 2026",
+    "autor": "Equipo TechNews",
+    "contenido": "Las plataformas en la nube incorporan herramientas que simplifican la publicación, supervisión y escalabilidad de aplicaciones modernas."
+  },
+  {
+    "id": 4,
+    "sigla": "CS",
+    "titulo": "Nuevas prácticas de ciberseguridad",
+    "categoria": "Ciberseguridad",
+    "descripcion": "Expertos recomiendan reforzar contraseñas, copias de seguridad y actualizaciones.",
+    "fecha": "12 de septiembre de 2026",
+    "autor": "Equipo TechNews",
+    "contenido": "La protección de la información requiere contraseñas seguras, autenticación adicional, actualizaciones periódicas y copias de seguridad verificadas."
+  },
+  {
+    "id": 5,
+    "sigla": "PY",
+    "titulo": "Python continúa creciendo",
+    "categoria": "Desarrollo",
+    "descripcion": "Su sintaxis clara mantiene a Python como una alternativa para aprender programación.",
+    "fecha": "11 de septiembre de 2026",
+    "autor": "Equipo TechNews",
+    "contenido": "Python se utiliza en automatización, desarrollo web y análisis de datos. Su sintaxis facilita el aprendizaje y la creación rápida de prototipos."
+  },
+  {
+    "id": 6,
+    "sigla": "RB",
+    "titulo": "La robótica transforma la industria",
+    "categoria": "Robótica",
+    "descripcion": "Los sistemas automatizados apoyan procesos de fabricación, logística y control.",
+    "fecha": "10 de septiembre de 2026",
+    "autor": "Equipo TechNews",
+    "contenido": "La robótica industrial combina sensores, programación y automatización para mejorar tareas repetitivas y procesos de control."
+  }
+]

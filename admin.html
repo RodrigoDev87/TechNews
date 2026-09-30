@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Administración básica de noticias de TechNews">
+  <title>TechNews | Administración</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Encabezado y menú principal -->
+
+  <header class="header">
+    <div class="contenedor header-contenido">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="TechNews">
+      </a>
+      <nav class="navegacion" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="favoritos.html">Favoritos</a>
+        <a href="contacto.html">Contacto</a>
+        <a class="enlace-admin activo" href="admin.html">Administrar</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- Contenido principal de la página -->
+
+  <main>
+    <section class="cabecera-pagina">
+      <div class="contenedor">
+        <h1>Administración de noticias</h1>
+        <p>Crea y elimina publicaciones mediante un mini CRUD.</p>
+      </div>
+    </section>
+
+    <section class="seccion contenedor admin-grid">
+      <form id="formulario-noticia" class="formulario" novalidate>
+        <h2>Nueva noticia</h2>
+
+        <div class="campo">
+          <label for="titulo">Título</label>
+          <input id="titulo" type="text" required>
+        </div>
+
+        <div class="campo">
+          <label for="categoria-admin">Categoría</label>
+          <select id="categoria-admin" required>
+            <option value="">Selecciona una categoría</option>
+            <option value="Inteligencia artificial">Inteligencia artificial</option>
+            <option value="Desarrollo">Desarrollo</option>
+            <option value="Cloud">Cloud</option>
+            <option value="Ciberseguridad">Ciberseguridad</option>
+            <option value="Innovación">Innovación</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="descripcion">Descripción breve</label>
+          <textarea id="descripcion" rows="3" required></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="contenido">Contenido completo</label>
+          <textarea id="contenido" rows="6" required></textarea>
+        </div>
+
+        <button class="boton" type="submit">Crear noticia</button>
+        <p id="mensaje-admin" class="confirmacion" aria-live="polite"></p>
+      </form>
+
+      <section>
+        <h2>Noticias existentes</h2>
+        <p id="estado-admin" class="estado">Cargando noticias...</p>
+        <div id="lista-admin" class="lista-admin"></div>
+      </section>
+    </section>
+  </main>
+
+<!-- Pie de página -->
+   
+  <footer class="footer">
+    <div class="contenedor">
+      <p>&copy; 2026 TechNews</p>
+      <p>rodrigo@technews.com</p>
+    </div>
+  </footer>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

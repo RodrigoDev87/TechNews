@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Listado de noticias tecnológicas de TechNews">
+  <title>TechNews | Noticias</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Encabezado y menú principal -->
+     
+  <header class="header">
+    <div class="contenedor header-contenido">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="TechNews">
+      </a>
+      <nav class="navegacion" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a class="activo" href="noticias.html">Noticias</a>
+        <a href="favoritos.html">Favoritos</a>
+        <a href="contacto.html">Contacto</a>
+        <a class="enlace-admin" href="admin.html">Administrar</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- Contenido principal de la página -->
+
+  <main>
+    <section class="cabecera-pagina">
+      <div class="contenedor">
+        <h1>Noticias tecnológicas</h1>
+        <p>Explora las últimas novedades sobre tecnología e innovación.</p>
+      </div>
+    </section>
+
+    <section class="seccion contenedor">
+      <div class="controles">
+        <label class="sr-only" for="buscador">Buscar noticias</label>
+        <input id="buscador" type="search" placeholder="🔍 Buscar noticias...">
+
+        <div class="filtros" aria-label="Filtros de noticias">
+          <button class="filtro activo" type="button" data-categoria="Todas">Todas</button>
+          <button class="filtro" type="button" data-categoria="Inteligencia artificial">IA</button>
+          <button class="filtro" type="button" data-categoria="Desarrollo">Software</button>
+          <button class="filtro" type="button" data-categoria="Cloud">Cloud</button>
+          <button class="filtro" type="button" data-categoria="Ciberseguridad">Ciberseguridad</button>
+        </div>
+      </div>
+
+      <p id="estado" class="estado">Cargando noticias...</p>
+      <div id="lista-noticias" class="tarjetas" aria-live="polite"></div>
+    </section>
+  </main>
+
+<!-- Pie de página -->
+
+  <footer class="footer">
+    <div class="contenedor">
+      <p>&copy; 2026 TechNews</p>
+      <p>rodrigo@technews.com</p>
+    </div>
+  </footer>
+
+  <script src="js/noticias.js"></script>
+</body>
+</html>
